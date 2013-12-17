@@ -1,3 +1,3 @@
 #!/bin/sh
 clear;
-raptor-optimizer raptor raptor/templating ./template_test.rhtml -m --name template_test -c ./config/raptor-optimizer.xml -o ./public/j --html
+raptor-optimizer raptor raptor/templating ./template_test.rhtml -m --name template_test -u 'j/' -c ./config/raptor-optimizer.xml -o ./public/j --html
