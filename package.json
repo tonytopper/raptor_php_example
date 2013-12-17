@@ -1,0 +1,23 @@
+{
+  "name": "raptor_test",
+  "version": "0.0.0",
+  "description": "A barebones example of client side templating with raptorjs",
+  "main": "index.php",
+  "dependencies": {
+    "raptor": "~2.7.1-SNAPSHOT"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tonytopper/raptor_php_example.git"
+  },
+  "author": "Tony Topper",
+  "license": "BSD",
+  "gitHead": "fd74a5b88c0f02e84e0984c64e2c513ff92b3134",
+  "bugs": {
+    "url": "https://github.com/tonytopper/raptor_php_example/issues"
+  }
+}
