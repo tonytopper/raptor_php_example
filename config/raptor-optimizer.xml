@@ -1,0 +1,10 @@
+<optimizer-config>
+
+    <bundles name="default">
+        <bundle name="core">
+            <module name="raptor" recursive="true"/>
+            <module name="raptor/widgets" recursive="true"/>
+        </bundle>
+    </bundles>
+    
+</optimizer-config>
