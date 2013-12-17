@@ -5,6 +5,15 @@
             <module name="raptor" recursive="true"/>
             <module name="raptor/widgets" recursive="true"/>
         </bundle>
+        
+        <bundle name="templating">
+        	<module name="raptor/strings/StringBuilder" recursive="true"/>
+        	<module name="raptor/strings" recursive="true"/>
+        	<module name="raptor/xml/utils" recursive="true"/>
+        	<module name="raptor/render-context/Context" recursive="true"/>
+        	<module name="raptor/render-context" recursive="true"/>	
+        	<module name="raptor/templating" recursive="true"/>	
+        </bundle>
     </bundles>
     
 </optimizer-config>

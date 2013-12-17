@@ -1,3 +1,6 @@
 #!/bin/sh
 clear;
-raptor-optimizer raptor raptor/templating ./template_test.rhtml -m --name template_test -u 'j/' -c ./config/raptor-optimizer.xml -o ./public/j --html
+#Base Raptor JavaScript bundles
+raptor-optimizer raptor raptor/templating -m -u 'j/' -c ./config/raptor-optimizer.xml -o ./public/j --html
+#Template specific JavaScript
+raptor-optimizer ./template_test.rhtml -m --name template_test -u 'j/' -c ./config/raptor-optimizer.xml -o ./public/j --html
