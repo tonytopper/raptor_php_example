@@ -11,15 +11,12 @@
         <?php echo $raptor_optimizer_output->body; ?>
         <script type="text/javascript">
             var templating = require('raptor/templating');
-            var html = templating.renderToString(
-                'template_test', 
-                {
-                    name: 'Tony',
-                    count: 5
-                });
-            
-            // Without jQuery
-            document.getElementById('raptor-container').innerHTML = html;    
+            var data = {
+                name: 'Tony',
+                count: 5
+            }
+
+            document.getElementById('raptor-container').innerHTML = templating.renderToString('template_test', data);    
         </script>
     </body>
 </html>
